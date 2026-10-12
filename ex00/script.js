@@ -1,6 +1,6 @@
 
 
-// Change the page theme
+
 const themeBtn = document.getElementById("themeBtn");
 
 themeBtn.addEventListener("click", function () {
@@ -13,7 +13,7 @@ themeBtn.addEventListener("click", function () {
     }
 });
 
-// Contact form
+
 const contactForm = document.getElementById("contactForm");
 const formMessage = document.getElementById("formMessage");
 
