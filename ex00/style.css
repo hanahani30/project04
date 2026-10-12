@@ -8,12 +8,12 @@
 }
 
 :root {
-    --background: #f4f7fc;
-    --surface: #ffffff;
-    --text: #243047;
-    --primary: #1769aa;
-    --secondary: #dceeff;
-    --border: #dce3ed;
+    --background: #f3eee6;
+    --surface: #fffdf9;
+    --text: #332d26;
+    --primary: #765d43;
+    --secondary: #e8dcc9;
+    --border: #ddd1c0;
 }
 
 body {
@@ -183,7 +183,8 @@ button:hover, .btn:hover {
 
 /* Projects */
 .project-card a,
-.github-link a {
+.github-link a,
+.certificate-link {
     color: var(--primary);
     font-weight: bold;
     display: inline-block;
@@ -246,12 +247,12 @@ footer {
 
 /* Dark Theme */
 body.dark-theme {
-    --background: #101827;
-    --surface: #1b2738;
-    --text: #e8eef7;
-    --primary: #65b8ff;
-    --secondary: #263d57;
-    --border: #344257;
+    --background: #211d19;
+    --surface: #2e2822;
+    --text: #f2ece3;
+    --primary: #d4b995;
+    --secondary: #493d31;
+    --border: #51463a;
 }
 
 /* Responsive Design */
